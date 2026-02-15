@@ -1,0 +1,12 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.plan
+crash.log
+override.tf
+override.tf.json
+.terraform.lock.hcl
+
+# Mac
+.DS_Store
