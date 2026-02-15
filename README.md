@@ -38,9 +38,6 @@ The solution implements a Hub-Spoke topology:
 
 ## 3. High-Level Architecture Diagram
 
-```mermaid
-flowchart LR
-
 subgraph Hub VNet (vnet-hub-prod-gwc)
     SHARED[subnet-shared-services]
     FW[AzureFirewallSubnet]
@@ -191,5 +188,7 @@ Private DNS Integration
 DDoS Protection Strategy
 
 ---
+## Architecture Diagram
 
 ![Enterprise Azure Hub-Spoke Architecture](diagrams/hub-spoke-architecture.png)
+
